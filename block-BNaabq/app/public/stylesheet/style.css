@@ -1,0 +1,12 @@
+img {
+  width: 100%;
+ 
+}
+
+.img-container {
+  width: 500px;
+}
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
