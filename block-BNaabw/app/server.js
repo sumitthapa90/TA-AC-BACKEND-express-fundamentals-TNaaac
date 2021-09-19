@@ -46,8 +46,8 @@ app.get("/education", (req, res) => {
   res.sendFile(__dirname + "/education.html");
 });
 
-app.get("/portfoliyo", (req, res) => {
-  res.sendFile(__dirname + "/portfoliyo.html");
+app.get("/protfoliyo", (req, res) => {
+  res.sendFile(__dirname + "/protfoliyo.html");
 });
 
 app.use("/user/:username", (req, res, next) => {
