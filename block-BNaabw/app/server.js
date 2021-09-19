@@ -26,8 +26,28 @@ app.use("/admin", (req, res, next) => {
 });
 
 // roughts
-app.get("/route", (req, res) => {
-  res.send("Welcome");
+app.get("/index", (req, res) => {
+  res.sendFile(__dirname + "/index.html");
+});
+
+app.get("/form", (req, res) => {
+  res.sendFile(__dirname + "/form.html");
+});
+
+app.get("/about", (req, res) => {
+  res.sendFile(__dirname + "/about.html");
+});
+
+app.get("/contact", (req, res) => {
+  res.sendFile(__dirname + "/contact.html");
+});
+
+app.get("/education", (req, res) => {
+  res.sendFile(__dirname + "/education.html");
+});
+
+app.get("/portfoliyo", (req, res) => {
+  res.sendFile(__dirname + "/portfoliyo.html");
 });
 
 app.use("/user/:username", (req, res, next) => {
