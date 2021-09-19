@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* my css */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, #000428, #004e92);
+}
+
+header {
+  background-color: rgb(84, 84, 180);
+  text-align: center;
+  display: inline-block;
+}
+
+.form-container {
+  background-color: cornflowerblue;
+  width: 350px;
+  height: 350px;
+  border: 1px solid;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+input {
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  height: 40px;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+h1 {
+  color: white;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-family: "Caveat", cursive;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  color: white;
+}
+ul {
+  margin-bottom: 2rem;
+}
+li {
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+  color: white;
+}
+hr {
+  margin-bottom: 2rem;
+}
+a:hover {
+  background-color: rgb(142, 230, 54);
+}
+a {
+  padding: 0.5rem;
+  width: 200px;
+  display: inline-block;
+  border: 1px solid;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-family: "Caveat", cursive;
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+.img-box {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  margin-top: 1rem;
+  border: 5px solid yellow;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+p {
+  margin-top: 1rem;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  color: white;
+  text-align: justify;
+}
+.info {
+  width: 50%;
+  margin-top: 6rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.first-part {
+  width: 50%;
+  text-align: center;
+  width: 500px;
+}
+h4 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+i {
+  margin-right: 1rem;
+}
